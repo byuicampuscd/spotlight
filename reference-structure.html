@@ -1,0 +1,13 @@
+<defs>
+    <radialGradient id="yolo">
+        <stop offset="70%" stop-color="black" />
+        <stop offset="100%" stop-color="transparent" />
+    </radialGradient>
+    <mask id="batman">
+        <rect x="0" y="0" width="1000" height="1000" fill="white" />
+        <rect id="anim1" x="105" y="105" width="100" height="100" fill="url(#yolo)" />
+    </mask>
+
+</defs>
+<rect x='0' y='0' width='1000' height='1000' fill='yellow'></rect>
+<rect x='0' y='0' width='1000' height='1000' mask="url(#batman)" fill='black' opacity=".5"></rect>

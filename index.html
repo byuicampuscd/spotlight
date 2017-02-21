@@ -75,20 +75,6 @@
             var rdm = function (positions, stage) {
                 this.stage = stage;
                 this.positions = []
-                    /*[
-                                        {
-                                            x: 0,
-                                            y: 50,
-                                            width: 10,
-                                            height: 10
-                                    },
-                                        {
-                                            x: 100,
-                                            y: 50,
-                                            width: 70,
-                                            height: 70
-                                    }
-                                    ];*/
                 for (var i = 0; i < positions; i++)
                     this.positions.push(createLightPosition());
             }
@@ -115,26 +101,6 @@
             var path = new PathFinder(paths, stage);
             path.moveLightAlongPath(i, paths * 1000);
         }
-        /*var colors = ["red", "blue", "green", "orange", "purple", "pink"];
-        function  copy(item){
-            return item;
-        }
-        var que = colors.map(copy);
-        function grooveOut(){
-            console.log(que[0]);
-            if(que.length <= 0)
-                que = colors.map(copy);
-            window.setTimeout(function(){
-                Snap(document.getElementById("groove")).animate({
-                    fill:que.shift()
-                },5000, grooveOut);
-            },5000);
-        }
-        grooveOut();*/
-
-        //        stage.moveLightToLocation(0, position, 20000, function () {
-        //            console.log("done!");
-        //        });
     </script>
 </body>
 
