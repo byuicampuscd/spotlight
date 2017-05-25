@@ -1,0 +1,11 @@
+{
+  "name": "spotlight",
+  "version": "1.0.0",
+  "description": "Spotlight made for Planet Simulator.",
+  "main": "spotlight.js",
+  "scripts": {
+    "test": "NA"
+  },
+  "author": "Benjamin Earl",
+  "license": "UNLICENSED"
+}
